@@ -7,6 +7,16 @@ body {
 
 /* Section Title */
 
+.title-social a {
+    text-decoration: none;
+    color: white;
+}
+
+.title-social a:hover {
+    text-decoration: none;
+    color: rgb(167, 167, 167);
+}
+
 
 /*  Navbar  */
 
@@ -33,7 +43,7 @@ body {
 /*  Title   */
 
 .bodys {
-    padding-top: 3%;
+    padding-top: 2%;
 }
 
 #title {
@@ -46,7 +56,7 @@ body {
 }
 
 .title-social {
-    margin-top: 5rem;
+    margin-top: 5%;
 }
 
 .title-hr {
@@ -58,7 +68,7 @@ body {
 }
 
 .title-referans {
-    margin-top: 4rem;
+    margin-top: 7%;
 }
 
 .giris-paragrafi {
