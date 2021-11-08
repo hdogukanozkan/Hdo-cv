@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
+body {
+    background-color: #222831;
+    color: #EEEEEE;
+}
+
+
+/* Section Title */
+
+
+/*  Navbar  */
+
+.navbar-brand {
+    font-family: 'Parisienne', cursive;
+    font-size: 4rem;
+}
+
+.nav-item {
+    padding: 0 1.4rem;
+}
+
+.nav-item a {
+    font-size: 1.4rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.nav-item a:Hover {
+    color: #32E0C4;
+}
+
+
+/*  Title   */
+
+.bodys {
+    padding-top: 3%;
+}
+
+#title {
+    margin-bottom: 4rem;
+}
+
+.big-header {
+    font-family: 'Lobster', cursive;
+    font-size: 7rem;
+}
+
+.title-social {
+    margin-top: 5rem;
+}
+
+.title-hr {
+    opacity: 1;
+    border: 0.5rem solid #32E0C4;
+    text-align: left;
+    border-radius: 25px;
+    width: 25%;
+}
+
+.title-referans {
+    margin-top: 4rem;
+}
+
+.giris-paragrafi {
+    color: #acacac;
+    padding: 0;
+    margin: 0;
+}
+
+.fav-header {
+    font-size: 2.5rem;
+    margin-bottom: 2.5%;
+}
+
+.alt-metin {
+    font-size: 1.5rem;
+    width: 75%;
+}
+
+.paragraf {
+    font-size: 1.1rem;
+}
+
+@media (max-width:650px) {
+    .big-header {
+        font-size: 4rem;
+        text-align: center;
+    }
+    .title-hr {
+        margin: auto;
+    }
+    .title-social {
+        text-align: center;
+    }
+    .alt-metin {
+        font-size: 1.1rem;
+    }
+    .paragraf {
+        font-size: 0.95rem;
+    }
+}
